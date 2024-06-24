@@ -1,13 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
+import AddArticle from "./AddArticle.tsx";
+import ListView from "./ListView.tsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
+    path: "/add_article",
+    element: <AddArticle />,
+  },
+  {
     path: "/",
-    element: <App />,
+    element: <ListView></ListView>,
   },
 ]);
 

@@ -13,7 +13,7 @@
     src: url("InterVariable-Italic.woff2") format("woff2");
   }
   
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
